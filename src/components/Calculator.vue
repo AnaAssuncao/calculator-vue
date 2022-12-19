@@ -1,23 +1,23 @@
 <template>
   <div class="calculator">
     <Display :value= "displayValue? displayValue : '0'" > </Display>
-    <Button label="AC" triple @testeClick="clearMemory" > </Button>
-    <Button label="/" operation @testeClick="setOperation"> </Button>
-    <Button label="7" @testeClick="addDigit"> </Button>
-    <Button label="8" @testeClick="addDigit"> </Button>
-    <Button label="9" @testeClick="addDigit"> </Button>
-    <Button label="*" operation @testeClick="setOperation"> </Button>
-    <Button label="4" @testeClick="addDigit"> </Button>
-    <Button label="5" @testeClick="addDigit"> </Button>
-    <Button label="6" @testeClick="addDigit"> </Button>
-    <Button label="-" operation @testeClick="setOperation"> </Button>
-    <Button label="1" @testeClick="addDigit"> </Button>
-    <Button label="2" @testeClick="addDigit"> </Button>
-    <Button label="3" @testeClick="addDigit"> </Button>
-    <Button label="+" operation @testeClick="setOperation"> </Button>
-    <Button label="0" double @testeClick="addDigit"> </Button>
-    <Button label="." @testeClick="addDigit"> </Button>
-    <Button label="=" operation @testeClick="setOperation"> </Button>
+    <Button label="AC" triple @onClick="clearMemory" > </Button>
+    <Button label="/" operation @onClick="setOperation"> </Button>
+    <Button label="7" @onClick="addDigit"> </Button>
+    <Button label="8" @onClick="addDigit"> </Button>
+    <Button label="9" @onClick="addDigit"> </Button>
+    <Button label="*" operation @onClick="setOperation"> </Button>
+    <Button label="4" @onClick="addDigit"> </Button>
+    <Button label="5" @onClick="addDigit"> </Button>
+    <Button label="6" @onClick="addDigit"> </Button>
+    <Button label="-" operation @onClick="setOperation"> </Button>
+    <Button label="1" @onClick="addDigit"> </Button>
+    <Button label="2" @onClick="addDigit"> </Button>
+    <Button label="3" @onClick="addDigit"> </Button>
+    <Button label="+" operation @onClick="setOperation"> </Button>
+    <Button label="0" double @onClick="addDigit"> </Button>
+    <Button label="." @onClick="addDigit"> </Button>
+    <Button label="=" operation @onClick="setOperation"> </Button>
   </div>
   
 </template>
